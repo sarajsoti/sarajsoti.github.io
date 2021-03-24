@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>White Mountains</title>
+    <meta charset="utf-8">
+    <!-- link to the external CSS file for font awesome icon library -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            color: #878787;
+            margin: 0;
+            font-family: sans-serif;
+            text-align: center;
+        }
+
+        img {
+            max-width: 100%;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .nav-header {
+            background: #f0f5f5;
+            height: 100px;
+            display: flex;
+        }
+
+        .nav-div {
+            margin: auto;
+        }
+
+        .logo-img {
+            width: 120px;
+            margin-left: 20px;
+        }
+
+        .search-icon {
+            margin: 30px;
+        }
+
+        .nav-bar {
+            list-style-type: none;
+            display: flex;
+        }
+
+        .nav-bar-link {
+            color: #878787;
+            font-size: 24px;
+            padding: 20px;
+        }
+
+        .main-header {
+            background: url("imgs/whitemountain2.jpg") top;
+            background-size: cover;
+            padding-top: 20px;
+        }
+
+        .main-header-title {
+            text-align: left;
+            font-size: 2.5em;
+            color: #f7f8f9;
+            text-transform: uppercase;
+            font-weight: normal;
+            padding-left: 75px;
+            text-shadow: 2px 2px 5px darkgrey;
+        }
+
+        .main-header-intro {
+            line-height: 1.5em;
+            width: 50%;
+            margin: auto;
+            padding: 40px;
+            color: #333333;
+            text-align: justify;
+        }
+
+        .intro {
+            width: 60%;
+            margin: auto;
+        }
+
+        .button {
+            display: block;
+            color: white;
+            background-color: rgb(151, 212, 59);
+            box-shadow: 2px 2px 2px grey;
+            margin-left: 250px;
+            margin-right: 250px;
+            margin-bottom: 15px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+
+        .box {
+            width: 100%;
+            margin: auto;
+            display: flex;
+        }
+
+        .card {
+            width: 100%;
+            padding: 20px;
+            text-align: left;
+            border-radius: 1pt;
+            border: 2px solid grey;
+            box-shadow: 2px 2px 2px;
+            margin: 10px;
+            background-color: rgb(235, 241, 238);
+        }
+
+        .footer {
+            height: 40px;
+            background: #f0f5f5;
+            padding: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="nav-header">
+        <img class="logo-img" src="imgs/visit-white-mountains-logo.png" alt="Visit White Mountains logo">
+        <div class="nav-div">
+            <ul class="nav-bar">
+                <li><a class="nav-bar-link" href="#">Home</a></li>
+                <li><a class="nav-bar-link" href="#">Explore More</a></li>
+                <li><a class="nav-bar-link" href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="search-icon">
+            <i class="fas fa-search fa-2x"></i>
+        </div>
+    </div>
+
+    <div class="main-header">
+        <h1 class="main-header-title">White Mountains</h1>
+        <div class="main-header-intro">
+            White Mountains region is one of the most breathtaking attractions located in New Hampshire. It is home to a large number of hiking trails and ski areas with spectacular sceneary!
+        </div>
+    </div>
+
+    <h2>Experience winter in bold new ways!</h2>
+    <div class="intro">
+        <p> Whether you dream of conquering fresh powder, riding a new trail, or making unforgettable memories with your family, you can do it all and more in New Hampshire. Plan your winter getaway.
+        </p>
+        <a href="http://www.google.com" class="button"> Explore </a>
+    </div>
+
+    <div class="box">
+        <div class="card">
+            <img src="imgs/resort.jpg" alt="Resort">
+            <h3>Where to Stay</h3>
+            <p>
+                The White Mountains of New Hampshire has a wealth of accomodations to suit every need and taste. Everything from Grand Resorts to quiet campgrounds in the midst of our beautiful natrual beauty.
+            </p>
+            <ul>
+                <li><a href="#">Lodging</a></li>
+                <li><a href="#">Camping</a></li>
+                <li><a href="#">Real Estate</a></li>
+            </ul>
+        </div>
+        <!-- End of class .card -->
+
+        <div class="card">
+            <img src="imgs/mountain.jpg" alt="Mountain">
+            <h3>What to bring</h3>
+            <p>
+                One of most important things when it comes to hiking in the great outdoors is packing accordingly. Here are a few tips:
+            </p>
+            <ol>
+                <li>Bring layers of clothing</li>
+                <li>Pack sunscreen and bug spray</li>
+                <li>Carry extra water just in case</li>
+                <li>Pack light</li>
+            </ol>
+        </div>
+        <!-- End of class .card -->
+
+        <div class="card">
+            <img src="imgs/food.jpg" alt="Mountain">
+            <h3>Where to eat</h3>
+            <p>
+                The white mountain region has a wide variety of eataries. All offering their own unique taste!
+            </p>
+            <ul>
+                <li>Peach's Restaurant</li>
+                <li>Muddy Moose Restaurant and Pub</li>
+                <li>Abenaki Trail Restaurant and Pub</li>
+            </ul>
+        </div>
+        <!-- End of class .card -->
+
+    </div>
+    <!-- End of class .box -->
+
+    <div class="footer">
+        <i class="fab fa-facebook-square fa-2x"></i>
+        <i class="fab fa-twitter-square fa-2x"></i>
+        <i class="fab fa-flickr fa-2x"></i>
+        <i class="fa fa-camera-retro fa-2x"></i>
+    </div>
+</body>
+
+</html>
