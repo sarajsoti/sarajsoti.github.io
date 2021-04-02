@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Folk Music</title>
+      <meta charset="UTF-8">
+      <style>
+         * {
+         box-sizing: border-box;
+         }
+         body {
+         color: black;
+         margin: 0;
+         font-family: sans-serif;
+         text-align: center;
+         }
+         h1 {
+         font-size: 75px;
+         color: red;
+         text-transform: uppercase;
+         font-weight: normal;
+         font-family: georgia;
+         }
+         h2 {
+         color: red;
+         }
+         img {
+         width: 100%;
+         }
+         ul {
+         list-style-type: none;
+         margin: 0;
+         padding: 0;
+         }
+         .nav-bar {
+         list-style-type: none;
+         margin: 0;
+         width: 200px;
+         }
+         .nav-bar-list {
+         float: left;
+         padding-top: 4px;
+         background-color: lightgray;
+         margin: 2px;
+         }
+         @media screen and (max-width: 600px) {
+         .nav-bar-list {
+         padding-top: 4px;
+         padding-left: 100%;
+         padding-right: 100%;
+         background-color: lightgray;
+         margin: 2px;
+         }
+         }
+         .nav-bar-link {
+         color: white;
+         font-size: 24px;
+         padding: 20px;
+         text-decoration: none;
+         }
+         .main-header {
+         padding-top: 200px;
+         height: 850px;
+         background: url("humusic.jpg") no-repeat center;
+         background-size: cover;
+         }
+         .title {
+         color: white;
+         font-size: 1.5em;
+         }
+         .intro {
+         font-size: 1.25em;
+         line-height: 1.5em;
+         width: 50%;
+         margin: auto;
+         padding: 40px;
+         }
+         .box {
+         width: 80%;
+         margin: auto;
+         display: flex;
+         }
+         @media screen and (max-width: 600px) {
+         .box {
+         flex-direction: column;
+         }
+         }
+         .card {
+         width: 100%;
+         padding: 30px;
+         text-align: center;
+         border: 7px solid darkred;
+         margin: 5px;
+         }
+         .image1 {border: 7px dotted red;
+         }
+         .image2 {border: 5px solid red;
+         }
+         .image3 {border: 7px dotted red;
+         }
+         .hungarianfolkculture {font-size: 20px;
+         font-family: lucida handwriting;
+         color: darkred;
+         }
+      </style>
+   </head>
+   <body>
+      <ul class="nav-bar">
+         <li class="nav-bar-list"><a class="nav-bar-link" href="index.html">Home</a></li>
+         <li class="nav-bar-list"><a class="nav-bar-link" href="music.html">Folk Music</a></li>
+         <li class="nav-bar-list"><a class="nav-bar-link" href="#">Contact Us</a></li>
+      </ul>
+      <div class="main-header">
+         <h1>Folk Music</h1>
+         <h2>Expression of the Soul </h2>
+      </div>
+      <p class="intro">
+         There are so many beautiful places to explore in the White Mountains region! From hiking trails to waterfalls, this area is truly filled with amazing sights! 
+      </p>
+      <div class="box">
+         <div class="card">
+            <div>
+               <img src="erdely.jpg" alt="Transylvania" class="image1">
+            </div>
+            <h3>Transylvania</h3>
+            <p>
+              Some of the oldest Hungarian music was preserved in the region that is now a part of Romania. 
+            </p>
+            <ul>
+               <li><a href="https://youtu.be/1ynFM8pEHH8">Historical Songs from Transylvania</a></li>
+               <li><a href="https://youtu.be/t4D-x012uIk">Vajdaszentivanyi Songs</a></li>
+               <li><a href="https://youtu.be/A25L2-wRPXU">Mezosegi Music</a></li>
+            </ul>
+         </div>
+         <!-- End of class .card -->
+         <div class="card">
+            <div>
+               <img src="tisza.png" alt="Tisza" class="image2">
+            </div>
+            <h3>Tisza Region</h3>
+            <p>
+               The Flume is a natural gorge extending 800 feet at the base of Mount Liberty. The walls of Conway granite rise to a height of 70 to 90 feet and are 12 to 20 feet apart. The entire loop takes approximately 1.5 hours and finishes at the Flume Building.
+            </p>
+            <ul>
+               <li><a href="https://youtu.be/kdrQ2YzHVzA">Music from Hajdusag</a></li>
+               <li><a href="https://youtu.be/TKifQlLzTxc">Mezofoldi Music</a></li>
+               <li><a href="http://www.americanhungarianfederation.org/news_trianon.htm">Treaty of Trianon</a></li>
+            </ul>
+         </div>
+         <div class="card">
+            <div>
+               <img src="dunantul.png" alt="Dunantul" class="image3">
+            </div>
+            <h3>Transdanubian</h3>
+            <p>
+               Attitash Mountain Resort is the largest resort area on Mount Washington. It offers 68 trails and 11 lifts across two big, connected mountains (Attitash & Bear Peak) that combine traditional New England runs and challenging terrain with modern, wide-open cruisers suited for all abilities.
+            </p>
+            <ul>
+               <li><a href="https://youtu.be/dVGcZkK91mk">Trandanubian Music</a></li>
+               <li><a href="https://youtu.be/N8OHEYrRJw8">Music from Sarkoz</a></li>
+               <li><a href="https://youtu.be/VJj1KymxLzE">Somogyi Songs</a></li>
+            </ul>
+         </div>
+         <!-- End of class .card -->
+      </div>
+      <h2 class="hungarianfolkculture">Beautiful Hungarian Folk Culture</h2>
+      <!-- End of class .box -->
+   </body>
+</html>
