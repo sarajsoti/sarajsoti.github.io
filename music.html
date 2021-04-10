@@ -1,168 +1,288 @@
 <!DOCTYPE html>
 <html lang="en">
    <head>
-      <title>Folk Music</title>
+      <title>Hungarian Folk Music</title>
       <meta charset="UTF-8">
+      <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
       <style>
-         * {
-         box-sizing: border-box;
-         }
-         body {
-         color: black;
-         margin: 0;
-         font-family: sans-serif;
-         text-align: center;
-         }
-         h1 {
-         font-size: 75px;
-         color: red;
-         text-transform: uppercase;
-         font-weight: normal;
-         font-family: georgia;
-         }
-         h2 {
-         color: red;
-         }
-         img {
-         width: 100%;
-         }
-         ul {
-         list-style-type: none;
-         margin: 0;
-         padding: 0;
-         }
-         .nav-bar {
-         list-style-type: none;
-         margin: 0;
-         width: 200px;
-         }
-         .nav-bar-list {
-         float: left;
-         padding-top: 4px;
-         background-color: lightgray;
-         margin: 2px;
-         }
-         @media screen and (max-width: 600px) {
-         .nav-bar-list {
-         padding-top: 4px;
-         padding-left: 100%;
-         padding-right: 100%;
-         background-color: lightgray;
-         margin: 2px;
-         }
-         }
-         .nav-bar-link {
-         color: white;
-         font-size: 24px;
-         padding: 20px;
-         text-decoration: none;
-         }
-         .main-header {
-         padding-top: 200px;
-         height: 850px;
+body {
+  margin: 0;
+  font-family: roboto;
+  background: #f2cc6b;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: darkred;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: red;
+  color: white;
+}
+
+    @media only screen and (max-width: 600px) {
+    .topnav a {
+      width: 100%;
+      margin: 5px;
+      background-color: green;
+      color: white;
+      }
+      }
+
+
+
+
+      .main-header {
+         padding-top: 400px;
+         height: 400px;
          background: url("imgs/humusic.jpg") no-repeat center;
          background-size: cover;
          }
-         .title {
+
+
+.card {
+      background-color: white;
+      width: 40%;
+      margin: auto;
+      margin-bottom: 5%;
+      border-radius: 18px;
+      box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+}
+
+
+img {
+  border-radius: 5px 5px 0 0;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+h3 {
+  font-size: 30px;
+  text-align: center;
+  color: darkred;
+
+}
+
+         h1 {
+         font-size: 60px;
          color: white;
-         font-size: 1.5em;
-         }
-         .intro {
-         font-size: 1.25em;
-         line-height: 1.5em;
-         width: 70%;
-         margin: auto;
-         padding: 40px;
-         }
-         .box {
-         width: 80%;
-         margin: auto;
-         display: flex;
-         }
-         @media screen and (max-width: 600px) {
-         .box {
-         flex-direction: column;
-         }
-         }
-         .card {
-         width: 100%;
-         padding: 30px;
+         text-transform: uppercase;
+         font-weight: normal;
+         font-family: georgia;
          text-align: center;
-         border: 7px solid darkred;
-         margin: 5px;
+         background-color: darkred;
+         margin-left: 10%;
+         margin-right: 10%;
          }
-         .image1 {border: 7px dotted red;
+
+        ul {
+         list-style-type: none;
+          margin: 0;
+         padding: 0;
+         margin-bottom: 15px;
          }
-         .image2 {border: 5px solid red;
+
+         .box1 {
+          background color: white;
          }
-         .image3 {border: 7px dotted red;
+
+
+.container {
+  padding: 2px 16px;
+  text-align: center;
+}
+
+         .row {
+          display: flex;
+          flex-direction: row;
+        
          }
-         .hungarianfolkculture {font-size: 20px;
-         font-family: lucida handwriting;
-         color: darkred;
-         }
-      </style>
-   </head>
-   <body>
-      <ul class="nav-bar">
-         <li class="nav-bar-list"><a class="nav-bar-link" href="index.html">Home</a></li>
-         <li class="nav-bar-list"><a class="nav-bar-link" href="music.html">Folk Music</a></li>
-         <li class="nav-bar-list"><a class="nav-bar-link" href="#">Contact Us</a></li>
-      </ul>
+
+         .fit {
+          object-fit: contain;
+         } doesn't work!!!!
+
+
+
+
+
+</style>
+</head>
+<body>
+
+<div class="topnav">
+  <a href="index.html">Home</a>
+  <a class="active" href="music.html">Folk Music</a>
+  <a href="dances.html">Folk Dance</a>
+  <a href="#villagelife">Village Life</a>
+   <a href="#food">Food</a>
+  <a href="#alcohol">Alcoholic Beverages</a>
+  <a href="#art">Folk Art</a>
+</div>
+
+
+
+
+
       <div class="main-header">
-         <h1>Folk Music</h1>
-         <h2>Expression of the Soul </h2>
+         <h1>Hungarian Folk <br> Music</h1>
       </div>
-      <p class="intro">
-         Even though Hungary is only the size of Indiana, it has a fascinating variety of musical dialects. Before modern transportation was invented, many of these regions were isolated enough from each other that they developed their own characteristic sounds and songs.
-      </p>
-      <div class="box">
-         <div class="card">
-            <div>
-               <img src="imgs/erdely.jpg" alt="Transylvania" class="image1">
-            </div>
-            <h3>Transylvania</h3>
-            <p>
-              Some of the oldest Hungarian music was preserved in the region that is now a part of Romania, sheltered by the Carpathian Mountains. As villages were separated by great distances, a multitude of music emerged. The violin is the main instrument used in these songs.
-            </p>
-            <ul>
-               <li><a href="https://youtu.be/1ynFM8pEHH8">Historical Songs from Transylvania</a></li>
-               <li><a href="https://youtu.be/t4D-x012uIk">Vajdaszentivanyi Songs</a></li>
-               <li><a href="https://youtu.be/A25L2-wRPXU">Mezosegi Music</a></li>
-            </ul>
-         </div>
-         <!-- End of class .card -->
-         <div class="card">
-            <div>
-               <img src="imgs/tisza.png" alt="Tisza" class="image2">
-            </div>
-            <h3>Tisza Region</h3>
-            <p>
-               Along the Tisza River in Eastern Hungary, spanning from the north to the south, different sounding music emerged characterized by more upbeat rhythms and the use of the cimbalom. 
-            </p>
-            <ul>
-               <li><a href="https://youtu.be/kdrQ2YzHVzA">Music from Hajdusag</a></li>
-               <li><a href="https://youtu.be/TKifQlLzTxc">Mezofoldi Music</a></li>
-               <li><a href="https://youtu.be/nede6ajFneM">Szegedi Songs</a></li>
-            </ul>
-         </div>
-         <div class="card">
-            <div>
-               <img src="imgs/dunantul.png" alt="Dunantul" class="image3">
-            </div>
-            <h3>Transdanubian</h3>
-            <p>
-               To the west of the Danube, which runs north to south through the middle of Hungary, there is yet again a different variety of music. Some instruments like the citera, the bagpipe, and the hurdy-gurdy give this music its typical sound.
-            </p>
+
+      <div class="instruments">
+         <h3>Instruments</h3>
+      </div>
+
+      <div class="row">
+        <div class="card">
+         <img class="fit" src="imgs/citera.jpg" alt="Citera">
+          <div class="container">
+            <a href="https://youtu.be/ib221uML20c"><h4><b>Citera</b></h4></a>
+
+            <h4><b>Citera</b> <i class="fas fa-volume-up"></i> </h4>
+
+            <p>Description about instrument</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <img class="fit" src="imgs/cimbalom.jpg" alt="Cimbalom">
+          <div class="container">
+            <a href="https://youtu.be/Zkz7UCXypMQ"><h4><b>Cimbalom</b></h4></a>
+
+            <h4><b>Cimbalom</b> <i class="fas fa-volume-up"></i> </h4>
+
+            <p>Description about instrument</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <img class="fit" src="imgs/duda.jfif" alt="Duda">
+          <div class="container">
+            <a href="https://youtu.be/f7A-PE3y_HE"><h4><b>Kecskeduda</b></h4></a>
+
+            <h4><b>Kecskeduda</b> <i class="fas fa-volume-up"></i> </h4>
+            <p>Description about instrument</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <img class="fit" src="imgs/hurdygurdy.jpg" alt="Hurdy-gurdy">
+          <div class="container">
+            <a href="https://youtu.be/cM3yM3tVrqg"><h4><b>Hurdy-gurdy</b></h4></a>
+
+
+            <h4><b>Hurdy-gurdy</b> <i class="fas fa-volume-up"></i> </h4>
+            <p>Description about instrument</p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="row">
+        <div class="card">
+         <img class="fit" src="imgs/violin1.jpg" alt="Violin">
+          <div class="container">
+            <a href="https://youtu.be/a_WJ3Nt8laU"><h4><b>Violin</b></h4></a>
+
+            <h4><b>Violin</b> <i class="fas fa-volume-up"></i> </h4>
+            <p>Description about instrument</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <img class="fit" src="imgs/gardon.jpg" alt="Gardon">
+          <div class="container">
+            <a href="https://youtu.be/P45MDkIsSTA"><h4><b>Utogardon</b></h4></a>
+
+            <h4><b>Utogardon</b> <i class="fas fa-volume-up"></i> </h4>
+            <p>Description about instrument</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <img class="fit" src="imgs/cobza.jpg" alt="Cobza">
+          <div class="container">
+
+            <a href="https://youtu.be/mYP7R5tyu7o"><h4><b>Cobza</b></h4></a>
+
+            <h4><b>Cobza</b> <i class="fas fa-volume-up"></i> </h4>
+            <p>Description about instrument</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <img class="fit" src="imgs/tarogato.jfif" alt="Tarogato">
+          <div class="container">
+            <a href="https://youtu.be/ekAT4ghi_jc"><h4><b>Tarogato</b></h4></a>
+
+            <h4><b>Tarogato</b> <i class="fas fa-volume-up"></i> </h4>
+            <p>Description about instrument</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="musical-styles">
+         <h3>Musical Styles by Region</h3>
+      </div>
+
+      <div class="row">
+        <div class="card">
+          <img class="fit" src="imgs/dunantul.png" alt="Duna">
+          <div class="container">
+            <h4><b>Transdanubian</b></h4>
+            <p> To the west of the Danube, which runs north to south through the middle of Hungary, there is yet again a different variety of music. Some instruments like the citera, the bagpipe, and the hurdy-gurdy give this music its typical sound.</p>
             <ul>
                <li><a href="https://youtu.be/dVGcZkK91mk">Trandanubian Music</a></li>
                <li><a href="https://youtu.be/N8OHEYrRJw8">Music from Sarkoz</a></li>
                <li><a href="https://youtu.be/VJj1KymxLzE">Somogyi Songs</a></li>
             </ul>
-         </div>
-         <!-- End of class .card -->
+          </div>
+        </div>
+
+        <div class="card">
+          <img class="fit" src="imgs/tisza.png" alt="Tisza">
+          <div class="container">
+            <h4><b>Tisza/Great Hungarian Plain</b></h4>
+            <p> Along the Tisza River in Eastern Hungary, spanning from the north to the south, different sounding music emerged characterized by more upbeat rhythms and the use of the cimbalom.</p>
+            <ul>
+               <li><a href="https://youtu.be/kdrQ2YzHVzA">Music from Hajdusag</a></li>
+               <li><a href="https://youtu.be/TKifQlLzTxc">Mezofoldi Music</a></li>
+               <li><a href="https://youtu.be/nede6ajFneM">Szegedi Songs</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="card">
+          <img class="fit" src="imgs/erdely.jpg" alt="Erdely">
+          <div class="container">
+            <h4><b>Transylvania</b></h4>
+            <p> Some of the oldest Hungarian music was preserved in the region that is now a part of Romania, sheltered by the Carpathian Mountains. As villages were separated by great distances, a multitude of music emerged. The violin is the main instrument used in these songs.</p>
+            <ul>
+               <li><a href="https://youtu.be/1ynFM8pEHH8">Historical Songs from Transylvania</a></li>
+               <li><a href="https://youtu.be/t4D-x012uIk">Vajdaszentivanyi Songs</a></li>
+               <li><a href="https://youtu.be/A25L2-wRPXU">Mezosegi Music</a></li>
+            </ul>
+          </div>
+        </div>
       </div>
-      <h2 class="hungarianfolkculture">Beautiful Hungarian Folk Culture</h2>
-      <!-- End of class .box -->
-   </body>
+
+
+</body>
 </html>
