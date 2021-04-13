@@ -82,18 +82,20 @@ body {
 
          .text {
          padding: 15px;
-
+         width: calc(100% - 400px);
 
          }
 
         .pics img {
-          width: 25%;
+            width: calc(50% - 9px);
+           box-sizing: border-box;
+            margin: 3px;
 
 
         }
 
         .pics {
-
+          width: 400px;
 
         }
 
@@ -115,6 +117,14 @@ body {
           .card {
           flex-direction: column;
 
+          }
+
+          .pics {
+            width: 100%;
+          }
+
+          .text {
+            width: 100%;
           }
       }
 
