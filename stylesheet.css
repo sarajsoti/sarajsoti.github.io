@@ -9,6 +9,9 @@ h1 {
     font-family: georgia;
     text-align: center;
 }
+h4 {
+    font-size: 20px;
+}
 .topnav {
     overflow: hidden;
     background-color: darkred;
@@ -28,6 +31,12 @@ h1 {
 .topnav a.active {
     background-color: red;
     color: white;
+}
+.intro {
+	font-size: 1.25em;
+    line-height: 1.5em;
+    width: 60%;
+    margin: auto;
 }
 .card {
     background-color: white;
