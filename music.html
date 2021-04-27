@@ -3,11 +3,10 @@
    <head>
       <title>Hungarian Folk Music</title>
       <meta charset="UTF-8">
+      <link rel="stylesheet" href="stylesheet.css">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
       <style>
          body {
-         margin: 0;
-         font-family: roboto;
          background: #f2cc6b;
          }
          img {
@@ -22,12 +21,7 @@
          color: darkred;
          }
          h1 {
-         font-size: 60px;
          color: white;
-         text-transform: uppercase;
-         font-weight: normal;
-         font-family: georgia;
-         text-align: center;
          background-color: darkred;
          margin-left: 10%;
          margin-right: 10%;
@@ -38,53 +32,11 @@
          padding: 0;
          margin-bottom: 15px;
          }
-         .topnav {
-         overflow: hidden;
-         background-color: darkred;
-         }
-         .topnav a {
-         float: left;
-         color: #f2f2f2;
-         text-align: center;
-         padding: 14px 16px;
-         text-decoration: none;
-         font-size: 17px;
-         }
-         .topnav a:hover {
-         background-color: #ddd;
-         color: black;
-         }
-         .topnav a.active {
-         background-color: red;
-         color: white;
-         }
          .main-header {
          padding-top: 400px;
          height: 400px;
          background: url("imgs/humusic.jpg") no-repeat center;
          background-size: cover;
-         }
-         .card {
-         background-color: white;
-         width: 23%;
-         margin: auto;
-         margin-bottom: 5%;
-         border-radius: 18px;
-         box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
-         }
-         .card1 {
-         background-color: white;
-         width: 30%;
-         margin: auto;
-         margin-bottom: 5%;
-         border-radius: 18px;
-         box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
-         }
-         .card1 img {
-         width: 100%;
-         height: 250px;
-         object-fit: cover;
-         object-position: center 10%;
          }
          .card img {
          width: 100%;
@@ -100,24 +52,13 @@
          .row {
          display: flex;
          flex-direction: row;
+         align-items: stretch;
          }
          @media only screen and (max-width: 600px) {
-         .topnav a {
-         width: 100%;
-         margin: 5px;
-         background-color: green;
-         color: white;
-         }
-         .row {
-         display: flex;
-         flex-direction: column;
-         }
-         .card {
-         width: 80%;
-         }
-         .card1 {
-         width: 80%;
-         }
+             .row {
+              display: flex;
+             flex-direction: column;
+             }
          }
       </style>
    </head>
@@ -201,7 +142,7 @@
          <h3>Musical Styles by Region</h3>
       </div>
       <div class="row">
-         <div class="card1">
+         <div class="card">
             <img class="fit" src="imgs/dunantul.png" alt="Duna">
             <div class="container">
                <h4><b>Transdanubian</b></h4>
@@ -213,7 +154,7 @@
                </ul>
             </div>
          </div>
-         <div class="card1">
+         <div class="card">
             <img class="fit" src="imgs/tisza.png" alt="Tisza">
             <div class="container">
                <h4><b>Tisza/Great Hungarian Plain</b></h4>
@@ -225,7 +166,7 @@
                </ul>
             </div>
          </div>
-         <div class="card1">
+         <div class="card">
             <img class="fit" src="imgs/erdely.jpg" alt="Erdely">
             <div class="container">
                <h4><b>Transylvania</b></h4>

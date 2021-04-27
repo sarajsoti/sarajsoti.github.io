@@ -3,11 +3,10 @@
    <head>
       <title>Village Life</title>
       <meta charset="UTF-8">
+      <link rel="stylesheet" href="stylesheet.css">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
       <style>
          body {
-         margin: 0;
-         font-family: roboto;
          background: #d75a57;
          }
          img {
@@ -22,12 +21,7 @@
          color: darkred;
          }
          h1 {
-         font-size: 60px;
          color: white;
-         text-transform: uppercase;
-         font-weight: normal;
-         font-family: georgia;
-         text-align: center;
          background-color: #008000;
          margin-left: 23%;
          margin-right: 23%;
@@ -37,26 +31,6 @@
          margin: 0;
          padding: 0;
          margin-bottom: 15px;
-         }
-         .topnav {
-         overflow: hidden;
-         background-color: darkred;
-         }
-         .topnav a {
-         float: left;
-         color: #f2f2f2;
-         text-align: center;
-         padding: 14px 16px;
-         text-decoration: none;
-         font-size: 17px;
-         }
-         .topnav a:hover {
-         background-color: #ddd;
-         color: black;
-         }
-         .topnav a.active {
-         background-color: red;
-         color: white;
          }
          .main-header {
          padding-top: 400px;
@@ -108,23 +82,12 @@
          margin: auto;
          margin-bottom: 50px;
          border: 7px solid #89b845;
+         max-width: 90%;
          }
          @media only screen and (max-width: 600px) {
-         .topnav a {
-         width: 100%;
-         margin: 5px;
-         background-color: green;
-         color: white;
-         }
          .row {
          display: flex;
          flex-direction: column;
-         }
-         .card {
-         width: 80%;
-         }
-         .card1 {
-         width: 80%;
          }
          }
       </style>
@@ -146,21 +109,21 @@
          The majority of people in Hungary lived in villages up until the late 1800s, when the country began to industrialize. Industrialization made village occupations unnecessary, and today, it is mostly the elders that continue this way of life. 
       </p>
       <div class="row">
-         <div class="card1">
+         <div class="card">
             <img class="fit" src="imgs/juhasz.jfif" alt="Juhasz">
             <div class="container">
                <h4><b>Occupations</b></h4>
                <p>In the past, there were many jobs that had to be done that we do not have to do today. Men would herd animals like sheep, cattle, and pigs. Villages needed blacksmiths, shoemakers, hatmakers, leather workers, weavers, barrel makers, pot makers, farmers, bakers, butchers, and herbalists. These jobs started disappearing as the country industrialized, and only few exist today.</p>
             </div>
          </div>
-         <div class="card1">
+         <div class="card">
             <img class="fit" src="imgs/greycattle.jpg" alt="Cattle">
             <div class="container">
                <h4><b>Native Animals</b></h4>
                <p>Hungary has many animals that are unique to the country. For example, the Mangalica is a Hungarian breed of domestic hairy pig with high fat content bred for bacon. The Hungarian Grey is a cow with long horns indigenous to Hungary used as a work animal, but has also been raised for its beef quality and resistance to diseases. The Racka is a sheep with spiral-shaped horns used for milking, wool, and meat.</p>
             </div>
          </div>
-         <div class="card1">
+         <div class="card">
             <img class="fit" src="imgs/dogbreeds.jpg" alt="Breeds">
             <div class="container">
                <h4><b>Dog Breeds</b></h4>
@@ -169,21 +132,21 @@
          </div>
       </div>
       <div class="row">
-         <div class="card1">
+         <div class="card">
             <img class="fit" src="imgs/religion.jpg" alt="Religion">
             <div class="container">
                <h4><b>Religion</b></h4>
                <p>In the village, everyone was of the Christian faith. They would attend church every Sunday and wear their best clothes. Once a year, they would go on a three day walk or pilgrimmage to a religious city. The old ways of greeting each other and saying goodbye were religiously based, for example, "God brings you" and "God with you."</p>
             </div>
          </div>
-         <div class="card1">
+         <div class="card">
             <img class="fit" src="imgs/dolgozok.png" alt="Dolgoz">
             <div class="container">
                <h4><b>Social Events</b></h4>
                <p>Sometimes, in the olden days, work itself was a social event. Each family grew their own food on their own land. When harvest came for fruits, like apples or cherries, for example, neighbors would go to each other's houses and help pick and wash the fruit. After work, everyone in the village would gather to talk and play games. The men would play cards and the women would do handwork or play a game called The Mill. The village would also get together for weddings and dances.</p>
             </div>
          </div>
-         <div class="card1">
+         <div class="card">
             <img class="fit" src="imgs/locsolkodas.jpg" alt="Locsolkodas">
             <div class="container">
                <h4><b>Holiday Traditions</b></h4>
